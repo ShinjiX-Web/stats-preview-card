@@ -159,7 +159,7 @@ p {
 .row-section {
     display: flex;
     justify-content: space-between;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .section-one {
@@ -251,5 +251,8 @@ img {
         border-top-left-radius: 15px;
         border-bottom-right-radius: 0;
     }
-    
+    .paragraph {
+        padding: 20px 14px 40px 14px;
+        font-size: 15px;
+    }
 }
