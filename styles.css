@@ -97,7 +97,7 @@ font-family: 'Lexend Deca', sans-serif;
 /* Custom CSS */
 
 .container-main {
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,6 +197,9 @@ img {
 
 @media (max-width: 1439px) {
 
+    .container-main {
+      height: unset;
+    }
     .section-two {
         background: linear-gradient(to top, #9324d396, #9324d342), url(./images/image-header-mobile.jpg);
         background-size: cover;
@@ -204,7 +207,6 @@ img {
     }
     .sub-container {
         flex-direction: column-reverse !important;
-        padding: 0 50px;
     }
     .section-one {
         text-align: center;
